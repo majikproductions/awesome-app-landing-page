@@ -19,6 +19,20 @@
   width: 240px;
   height: auto;
 }
+// Video
+.video-container {
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 //
 // iPhone SE Silver Vertical
