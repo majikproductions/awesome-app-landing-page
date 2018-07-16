@@ -6,6 +6,21 @@
   <title>{% if site.title %}{{ site.title }}{% else %}{{ site.app.name }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   
+  <!-- twitter summary card -->
+  <!-- Set a summary card size to large, or default to regular  -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@jessachandler">
+  <meta name="twitter:creator" content="@jessachandler">
+  <meta name="twitter:title" content="{% if site.title %}{{ site.title }}{% else %}{{ site.app.name }}{% endif %}">
+  <meta content="{% if site.title %}{{ site.title }}{% else %}{{ site.app.name }}{% endif %}" property="og:title">
+  <meta content="article" property="og:type">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta content="{{ site.description }}" property="og:description">
+  <meta name="twitter:url" content="https://majikproductions.github.io/social-majik/">
+  <meta content="https://majikproductions.github.io/social-majik/" property="og:url">
+  <meta property="og:image" content="https://majikproductions.github.io/social-majik/images/icon-left-font.png" />
+  <!-- end of twitter summary card -->
+  
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favico.png">
   <link rel="apple-touch-icon-precomposed" href="apple-icon-precomposed.png">
